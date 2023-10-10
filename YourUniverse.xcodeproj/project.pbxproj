@@ -18,9 +18,9 @@
 		737630832AD557E200E1A921 /* TildaSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737630802AD5579D00E1A921 /* TildaSans-Black.ttf */; };
 		737630842AD557E500E1A921 /* TildaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737630812AD5579D00E1A921 /* TildaSans-Regular.ttf */; };
 		737630862AD55CBE00E1A921 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 737630852AD55CBE00E1A921 /* placeholder.png */; };
-		7376308A2AD5606800E1A921 /* TradeWinds-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737630892AD5605100E1A921 /* TradeWinds-Regular.ttf */; };
 		7376308E2AD56E5D00E1A921 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376308D2AD56E5D00E1A921 /* RequestManager.swift */; };
 		737630902AD56E8800E1A921 /* APODResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376308F2AD56E8800E1A921 /* APODResponse.swift */; };
+		737630922AD57F6100E1A921 /* RammettoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737630912AD57F2D00E1A921 /* RammettoOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +36,9 @@
 		737630802AD5579D00E1A921 /* TildaSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TildaSans-Black.ttf"; sourceTree = "<group>"; };
 		737630812AD5579D00E1A921 /* TildaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TildaSans-Regular.ttf"; sourceTree = "<group>"; };
 		737630852AD55CBE00E1A921 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
-		737630892AD5605100E1A921 /* TradeWinds-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeWinds-Regular.ttf"; sourceTree = "<group>"; };
 		7376308D2AD56E5D00E1A921 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		7376308F2AD56E8800E1A921 /* APODResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODResponse.swift; sourceTree = "<group>"; };
+		737630912AD57F2D00E1A921 /* RammettoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RammettoOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 			children = (
 				737630802AD5579D00E1A921 /* TildaSans-Black.ttf */,
 				737630812AD5579D00E1A921 /* TildaSans-Regular.ttf */,
-				737630892AD5605100E1A921 /* TradeWinds-Regular.ttf */,
+				737630912AD57F2D00E1A921 /* RammettoOne-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7376308A2AD5606800E1A921 /* TradeWinds-Regular.ttf in Resources */,
+				737630922AD57F6100E1A921 /* RammettoOne-Regular.ttf in Resources */,
 				737630842AD557E500E1A921 /* TildaSans-Regular.ttf in Resources */,
 				737630832AD557E200E1A921 /* TildaSans-Black.ttf in Resources */,
 				737630682AD5407000E1A921 /* LaunchScreen.storyboard in Resources */,

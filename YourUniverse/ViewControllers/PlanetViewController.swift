@@ -8,7 +8,9 @@
 import UIKit
 import Alamofire
 
-class PlanetViewController: UIViewController {
+final class PlanetViewController: UIViewController {
+    
+    // MARK: - IB Outlets
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -18,18 +20,24 @@ class PlanetViewController: UIViewController {
     @IBOutlet weak var yourUniverseLabel: UILabel!
     @IBOutlet weak var copyrightLabel: UILabel!
     
-    let placeholderImage = UIImage(named: "placeholder")
+    // MARK: - Private Properties
+    
+    private let placeholderImage = UIImage(named: "placeholder")
+    
+    // MARK: - Life Cycle Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
     
-    func setupUI() {
+    // MARK: - Private Properties
+    
+    private func setupUI() {
         titleLabel.font = UIFont(name: "TildaSans-Black", size: 20)
         explanationLabel.font = UIFont(name: "TildaSans-Regular", size: 13)
         onThisPhotoLabel.font = UIFont(name: "TildaSans-Regular", size: 12)
-        yourUniverseLabel.font = UIFont(name: "TradeWinds", size: 30)
+        yourUniverseLabel.font = UIFont(name: "RammettoOne-Regular", size: 30)
         
         imageView.layer.cornerRadius = 10.0
         imageView.clipsToBounds = true
@@ -37,6 +45,8 @@ class PlanetViewController: UIViewController {
         fetchAPOD()
     }
 }
+
+    // MARK: - Network
 
 extension PlanetViewController {
     func fetchAPOD() {
